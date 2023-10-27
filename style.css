@@ -1,0 +1,103 @@
+
+body {
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+        }
+.header {
+            height: 60px; /* Set the height of the header bar to 20px */
+            background-color: #3bd2ddab; /* Header bar background color */
+            display: flex; /* Use flexbox to align items horizontally */
+            align-items: center; /* Center items vertically within the header */
+            justify-content: flex-start; /* Align items to the start (left) of the header */
+            }
+
+        /* CSS for the sidebar */
+        .header img {
+            max-width: 100%; /* Ensure the image inside the header doesn't exceed its container */
+            margin-left: 10px; /* Add margin to the left of the logo for spacing */
+        }
+.sidebar {
+            height:calc(100% - 60px);;
+            width: 150px; /* Adjust the width as needed */
+            position: fixed;
+            top: 60px;
+            left: 0;
+            background-color: #2084e2; /* Sidebar background color */
+            padding-top: 40px;
+            margin-right: 20px;
+        }
+        
+        /* Style the links inside the sidebar */
+         .sidebar a {
+            padding: 10px 15px;
+            text-decoration: none;
+            font-size: 20px;
+            color: white; /* Link text color */
+            display: block;
+        }
+        
+        /* Change the color of links on hover */
+        .sidebar a:hover {
+            background-color: #8a0707;
+        }
+        
+        
+.card {
+            width: 28%;
+            height: 35%;
+            background-color: #fcf4f4;
+            box-shadow: 0 10px 10px 0 rgba(41, 38, 38, 0.2);
+            transition: 0.3s;
+            margin-left: 20px;
+            border-radius: 5px 5px 5px 5px;            
+           
+        }
+.card1{
+    /* Adjust the positioning of the card */
+    position: absolute;
+    top: 15%; /* Adjust the top position as needed */
+    left: 12%; /* Adjust the left position as needed to separate it from the sidebar */
+}
+.card2{
+    /* Adjust the positioning of the card */
+    position: absolute;
+    top: 15%; /* Adjust the top position as needed */
+    left: 45%; /* Adjust the left position as needed to separate it from the sidebar */
+}
+.cards{
+    position: absolute;
+    top: 15%;
+    left: 73.5%;
+    height: 75%;
+
+}
+.card3{
+    /* Adjust the positioning of the card */
+    position: absolute;
+    top: 55%; /* Adjust the top position as needed */
+    left: 12%; /* Adjust the left position as needed to separate it from the sidebar */
+}
+.card4{
+    /* Adjust the positioning of the card */
+    position: absolute;
+    top: 55%; /* Adjust the top position as needed */
+    left: 45%; /* Adjust the left position as needed to separate it from the sidebar */
+}
+.title{
+    margin: 5% ;
+    padding-right: 5%;
+    display: flex; /* Turn the title into a flex container */ 
+    justify-content: space-between;
+}
+
+   /* Add CSS styles for the container of the chart */
+.container{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+}
+#chart
+{
+    width: 100%;
+    height: 100%;
+}
